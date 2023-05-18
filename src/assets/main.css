@@ -1,0 +1,38 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  margin: 0;
+  background-image: url(../components/icons/w1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+button:hover {
+  border-color: #ffff;
+}
+
+.card {
+  padding: 2em;
+}
+
+hr {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-top: none;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #F9F7F7;
+  transition: 0.4s;
+}
